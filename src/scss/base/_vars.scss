@@ -1,0 +1,36 @@
+:root {
+	--container-width: 1200px;
+
+	--font-accent: 'Roboto', sans-serif;
+	--extra-font: 'Akrobat', sans-serif;
+	--basic-font: 'Inter', sans-serif;
+	--white: #FFFFFF;
+	--gray: #CFCFCF;
+	--grey: #AB9C9E;
+	--text-color: #010101;
+	--extra-black: #424242;
+	--black: #000000;
+	--red: #A72536;
+	--link-color: #2578c8;
+	--brown: #754040;
+	--extra-brown: #5B484A;
+	--icon-brown: #584B4D;
+	--basic-brown: #847173;
+	--slider-button: #F6F6F6;
+	--svg-color-button: #616161;
+	--new-brown: #9B746A;
+	--color-button: #C4C4C4;
+	--laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

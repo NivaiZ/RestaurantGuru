@@ -1,0 +1,10 @@
+.header {
+	padding: 18px 0 0 0;
+	background-color: var(--white);
+}
+
+@media (max-width: 991px) {
+	.header {
+		padding: 15px 0 15px 0;
+	}
+}

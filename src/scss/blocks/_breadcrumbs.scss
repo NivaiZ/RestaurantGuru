@@ -1,0 +1,33 @@
+.breadcrumbs__list {
+	display: flex;
+}
+
+.breadcrumbs__item {
+	margin-right: 5px;
+
+	&::before {
+		content: '/';
+		width: 6px;
+		height: 16px;
+		color: var(--white);
+	}
+
+	&:first-child {
+		&::before {
+			content: none;
+		}
+	}
+
+	a {
+		color: var(--white);
+		font-size: 14px;
+		line-height: 16.41px;
+		font-weight: 400;
+		padding: 5px 2px 5px 0;
+		transition: 0.5s ease;
+
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+}

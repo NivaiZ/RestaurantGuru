@@ -1,0 +1,86 @@
+<header class="header">
+	<div class='container'>
+		<nav class='header__nav menu'>
+			<div class='menu__wrapper'>
+				<div class='menu__logo'>
+					<a class='menu__logo-link' href='/' aria-label='Логотип'>
+						<picture>
+							<source srcset="./img/icon__logo-mobile.svg" media="(max-width: 800px)">
+							<img class='menu__logo-picture' src='./img/icon__logo.svg' alt='лого'>
+						</picture>
+					</a>
+				</div>
+
+				<div class='menu__inner search'>
+					<form class='search__form' method='get' name='search__restaurant'>
+
+						<div class='search__box'>
+							<input class='search__input' type='text' placeholder='Рестораны' name='search-field__restaurant'
+								id='restaurant__choose'>
+							<label class='visually-hidden' for="restaurant__choose">Выбор ресторана</label>
+							<span class='search__field'>Найти:</span>
+						</div>
+
+						<div class='search__box'>
+							<input class='search__input' type='text' placeholder='Москва' name='search-field__location'
+								id='restaurant__location'>
+							<label class='visually-hidden' for="restaurant__location">Выбор локации</label>
+							<span class='search__field'>Где:</span>
+						</div>
+
+						<div class='search__box search__box-background'>
+							<button class='search__button' type='button' aria-label='Поиск'>
+								<svg class="search__icon">
+									<use href="./img/svgsprite/sprite.symbol.svg#icon__search"></use>
+								</svg>
+							</button>
+						</div>
+					</form>
+					<div class='menu__switch switch'>
+						<button class="switch__button" type="button" aria-haspopup="true" aria-expanded="false"
+							data-action="dropdown">
+							<img class='switch__picture' src='./img/rus__flag.svg' alt='флаг России'>
+						</button>
+
+						<div class='switch__box' role="menu" data-open="true">
+							<button class='switch__close' type='button' data-action="close"></button>
+							<ul class="switch__menu">
+								<li class="switch__group">
+									<a class="switch__link" href="#" data-choose="link" aria-label='English version'>
+										<img class='switch__picture' src='./img/eng__flag.svg' alt='флаг США'>
+										<span class='switch__text'>English</span>
+									</a>
+								</li>
+
+								<li class="switch__group">
+									<a class="switch__link" href="#" data-choose="link" aria-label='Spanish version'>
+										<img class='menu__logo-picture' src='./img/es__flag.svg' alt='флаг Испании'>
+										<span class='switch__text'>Espanol</span>
+									</a>
+								</li>
+
+								<li class="switch__group">
+									<a class="switch__link" href="#" data-choose="link" aria-label='версия на русском'>
+										<img class='menu__logo-picture' src='./img/rus__flag.svg' alt='флаг России'>
+										<span class='switch__text'>Russia</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class='menu__list breadcrumbs' itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+		<div class='container'>
+			<ul class='breadcrumbs__list'>
+				<li class="breadcrumbs__item" itemprop="name"><a href="/" itemprop="url">Главная</a></li>
+				<li class="breadcrumbs__item" itemprop="name"><a href="/" itemprop="url">Россия</a></li>
+				<li class="breadcrumbs__item" itemprop="name"><a href="/" itemprop="url">Москва</a></li>
+				<li class="breadcrumbs__item" itemprop="name"><a href="/" itemprop="url">Рестораны</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
