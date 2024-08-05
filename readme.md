@@ -22,4 +22,4 @@ gulp
 gulp docs
 ```
 
-[Смотреть демо](https://user.github.io/repo/)
+[Смотреть демо](https://nivaiz.github.io/RestaurantGuru/)
