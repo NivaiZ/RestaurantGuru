@@ -23,3 +23,9 @@
 		@content;
 	}
 }
+
+@mixin desktop__custom () {
+	@media (max-width: 1225px) {
+		@content;
+	}
+}
